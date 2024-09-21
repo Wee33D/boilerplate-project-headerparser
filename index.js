@@ -30,7 +30,7 @@ app.get('/api/whoami', (req,res) => {
   const soft = req.headers['user-agent']; // Get software (user agent)
 
   res.json({
-    ipadress: ipAdd,
+    ipaddress: ipAdd,
     language: lang,
     software: soft
     
